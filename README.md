@@ -19,3 +19,5 @@ Chin:
 3.將.github / workflows / main.yml第30行wky0211更改為您的github用戶名
 
 4.它將自動開始编译
+
+- 默认K2
