@@ -34,5 +34,5 @@ jobs:
         make -j1 V=s
     - uses: actions/upload-artifact@master
       with:
-        name: result
+        name: Newifi3
         path: /home/runner/lede/bin
