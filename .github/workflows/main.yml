@@ -22,7 +22,7 @@ jobs:
         sudo chmod -R 777 lede
         sudo chown -R runner:runner lede
         cd /home/runner/lede
-        ./scripts/feeds update -a 
+        ./scripts/feeds update -a  
         ./scripts/feeds install -a
     - name: Clone config
       run: |
