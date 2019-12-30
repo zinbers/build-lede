@@ -30,7 +30,7 @@ jobs:
         wget https://raw.githubusercontent.com/zinbers/build-lede/master/.config
     - name: Build
       run: | 
-        cd /home/runner/lede 
+        cd /home/runner/lede  
         make -j1 V=s
     - uses: actions/upload-artifact@master
       with:
